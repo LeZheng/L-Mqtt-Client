@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/img">
+        <file alias="add">img/add-fill.svg</file>
+        <file alias="disconnect">img/pause-circle-line.svg</file>
+        <file alias="connect">img/play-circle-line.svg</file>
+        <file alias="delete">img/delete-bin-line.svg</file>
+        <file alias="edit">img/edit-line.svg</file>
+        <file alias="menu">img/menu-fill.svg</file>
+        <file alias="list-add">img/play-list-add-fill.svg</file>
+    </qresource>
+</RCC>
