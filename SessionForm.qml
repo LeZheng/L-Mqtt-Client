@@ -112,6 +112,29 @@ Item {
                     button.checked = true
                 }
             }
+
+            enter: Transition {
+                PropertyAnimation {
+                    property: "opacity"
+                    from: 0.0
+                    to: 1.0
+                    duration: 180
+                }
+                PropertyAnimation {
+                    property: "height"
+                    from: 0
+                    to: addMenu.height
+                    duration: 180
+                }
+            }
+            exit: Transition {
+                PropertyAnimation {
+                    property: "opacity"
+                    from: 1.0
+                    to: 0.0
+                    duration: 180
+                }
+            }
         }
     }
 
