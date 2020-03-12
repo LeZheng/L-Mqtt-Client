@@ -67,7 +67,7 @@ Item {
     Dialog {
         id: addSessionDialog
         title: "add mqtt session"
-
+        width: 375
         anchors.centerIn: Overlay.overlay
         standardButtons: Dialog.Ok | Dialog.Cancel
         enter: Transition {
@@ -106,7 +106,7 @@ Item {
         }
 
         Item {
-            implicitWidth: Screen.width - 60
+            implicitWidth: parent.width
             implicitHeight: 250
             ColumnLayout {
                 clip: true
